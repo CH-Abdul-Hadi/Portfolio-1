@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+}
+/* hero card */
+.cardStyle {
+  margin-top: 13%;
+  margin-left: 23%;
+}
+.hero{
+    width: 100vw;
+    padding-bottom: 11.7%;
+}
+.imgHero{
+    margin-top: 8%;
+}
+.projectrow2{
+    padding-left: 15rem;
+}
+
+/* navbar styling */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #ffc107;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+  font-size: larger;
+}
+/* hero card */
+.card {
+  border: none;
+}
+/* button */
+.cta-button {
+  background-image: linear-gradient(#ffc107, #212529);
+  /* color: white; */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border-radius: 32px;
+}
+.cta-button:hover {
+  transform: translateY(-5px);
+  background-color: #ffc107;
+}
+/* hero icons */
+.list-group-item{
+  border: none;
+}
+/* hover effect on icons */
+.fa-instagram:hover {
+  color: #ffc107 !important;
+}
+.fa-linkedin:hover {
+  color: #ffc107 !important;
+}
+.fa-github:hover {
+  color: #ffc107 !important;
+}
+.fa-envelope:hover {
+  color: #ffc107 !important;
+}
+.fa-whatsapp:hover {
+  color: #ffc107 !important;
+}
+.iconsMargin{
+  margin-top: 8rem;
+  margin-left: -10rem;
+}
+/* image */
+.image-style {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+.image-style:hover {
+  transform: scale(1.1); /* Slight zoom */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+/* contact us */
+.contactUs{
+  /* margin-top: 12rem; */
+  margin-bottom: 12rem;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0;
+  /* padding: 30px; */
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-control {
+  border-radius: 5px;
+}
+
+/* contact us detail styling */
+.contactUsdetails {
+  margin-top: -15rem;
+}
+.contactUstext {
+  padding-left: 6rem;
+}
+/* contact us Input styling */
+.contactusInputstyling {
+  border: none;
+  border-bottom: solid #2b2d30;
+  outline: none;
+  border-radius: none;
+  color: #ffc107;
+}
+.contactusInputstyling:focus {
+  border: none;
+  border-bottom: solid #ffc107;
+  outline: none;
+  border-radius: none;
+  color: #ffc107;
+}
+/* form outline removed */
+.form-control:focus {
+  box-shadow: none;
+}
+/* input feild placeholder */
+.contactusInputstyling::placeholder {
+  color: #ffc107;
+  opacity: 1;
+}
+.textcontact{
+  margin-top: 3rem;
+}
+/* projects */
+/* .cardImgtry{
+  filter: grayscale(100%);
+}
+.cardImgtry:hover{
+  filter: grayscale(0);
+} */
+
+/* skill area */
+/* MY Skills Orientation*/
+.mySkills {
+  writing-mode: vertical-lr;
+  display: inline;
+}
+/* skill set text border */
+.skillSetText1 {
+  width: 25rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+.skillSetText2 {
+  width: 20rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+.skillSetText3 {
+  width: 10rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+.skillSetText4 {
+  width: 5rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+hr:not([size]) {
+  height: 0.5rem;
+}
+@media (min-width: 576px) {
+  .col-sm-3 {
+      flex: 0 0 auto;
+      width: 5%;
+  }}
+
+.skillpadding {
+  padding-left: 5rem;
+} 
+.skillcontainerPadding{
+  padding-top: 3rem;
+}
