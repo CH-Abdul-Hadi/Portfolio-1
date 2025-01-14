@@ -65,18 +65,24 @@ body{
 /* hover effect on icons */
 .fa-instagram:hover {
   color: #ffc107 !important;
+  font-size: 25px;
 }
 .fa-linkedin:hover {
   color: #ffc107 !important;
+  font-size: 25px;
 }
 .fa-github:hover {
   color: #ffc107 !important;
+  font-size: 25px;
 }
 .fa-envelope:hover {
   color: #ffc107 !important;
+  font-size: 25px;
 }
 .fa-whatsapp:hover {
   color: #ffc107 !important;
+  font-size: 25px;
+  padding-bottom: 13px;
 }
 .iconsMargin{
   margin-top: 8rem;
@@ -84,6 +90,7 @@ body{
 }
 /* image */
 .image-style {
+  clip-path: ellipse(35% 48% at 50% 50%);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 .image-style:hover {
@@ -94,6 +101,7 @@ body{
 .contactUs{
   /* margin-top: 12rem; */
   margin-bottom: 12rem;
+  padding-bottom: 1rem;
 }
 .contact-form {
   max-width: 600px;
@@ -142,45 +150,9 @@ body{
 .textcontact{
   margin-top: 3rem;
 }
-/* projects */
-/* .cardImgtry{
-  filter: grayscale(100%);
-}
-.cardImgtry:hover{
-  filter: grayscale(0);
-} */
 
-/* skill area */
-/* MY Skills Orientation*/
-.mySkills {
-  writing-mode: vertical-lr;
-  display: inline;
-}
-/* skill set text border */
-.skillSetText1 {
-  width: 25rem;
-  height: 6rem;
-  color: #ffc107;
-  border: none;
-}
-.skillSetText2 {
-  width: 20rem;
-  height: 6rem;
-  color: #ffc107;
-  border: none;
-}
-.skillSetText3 {
-  width: 10rem;
-  height: 6rem;
-  color: #ffc107;
-  border: none;
-}
-.skillSetText4 {
-  width: 5rem;
-  height: 6rem;
-  color: #ffc107;
-  border: none;
-}
+
+
 hr:not([size]) {
   height: 0.5rem;
 }
@@ -196,3 +168,10 @@ hr:not([size]) {
 .skillcontainerPadding{
   padding-top: 3rem;
 }
+
+.footerlast{
+  margin-top: -12rem;
+}
+
+
+
