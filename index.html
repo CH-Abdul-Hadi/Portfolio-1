@@ -16,6 +16,20 @@
 </head>
 
 <body>
+  <!-- loader -->
+  <div class="loader-container">
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+</div>
+<script>window.addEventListener("load", function () {
+        const loaderContainer = document.querySelector(".loader-container");
+        loaderContainer.style.display = "none";
+    });
+      </script>
+<div class="main">
+
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-light position-absolute-100% p-3 sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand text-warning fs-3" href="#">Portfolio</a>
@@ -31,19 +45,19 @@
           </li>
           <!-- About -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="#aboutME">About</a>
+            <a class="nav-link text-light active" href="#aboutME">About</a>
           </li>
           <!-- skills -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="#skill">Skills</a>
+            <a class="nav-link text-light active" href="#skill">Skills</a>
           </li>
           <!-- projects -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="#project">Projects</a>
+            <a class="nav-link text-light active" href="#project">Projects</a>
           </li>
           <!-- contact -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="#contactUs">Contact</a>
+            <a class="nav-link text-light active" href="#contactUs">Contact</a>
           </li>
         </ul>
       </div>
